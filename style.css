@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: estilo;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(50deg, red 60%,blue 70%);
+    background-image: url(img/cielo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+@font-face
+{
+font-family: estilo;
+src: url(IntroScriptR-H2Base.otf);
+}
+ 
+td {border-style: solid;
+    border-color: #cccccc;
+ border-width: 0px;
+color: #288BA8;
+padding: 0px;
+font-size: 50px;
+ text-align: center;}
+
+th {
+ border-width: 0px;
+color: #000000;
+ text-align: center;
+padding: 0px;
+font-size: 22px;} 
+
